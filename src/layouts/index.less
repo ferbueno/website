@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Mark';
+  src: url("../assets/fonts/Mark.Pro.Book.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MarkBlack';
+  src: url("../assets/fonts/Mark.Pro.Black.otf");
+  font-weight: 700;
+}
+
+.layout {
+  height: 100%;
+  font-family: 'Mark';
+  .header {
+    background: white;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+  .footer {
+    background: @primary-color;
+    color: white;
+  }
+}
