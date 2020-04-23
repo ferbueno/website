@@ -1,5 +1,6 @@
 export default {
   'index.start': 'Getting Started',
+  'present': 'Present',
 
   // Menu
   'menu.home': 'Home',
@@ -35,4 +36,21 @@ export default {
   // Quote
   'quote.content': '“You’ve got to find what you love. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.”',
   'quote.author': 'Steve Jobs',
+
+  // Experience
+  'cto': 'CTO',
+  'full.stack.developer': 'Full Stack Developer',
+  'software.architect': 'Software Architect',
+  'software.developer.jr': 'Software Developer Jr.',
+  'factoro.title': 'Factoro',
+  'factoro.description': 'Plan, design and develop an electronic factoring platform built completely from scratch. In charge of front-end & backend development, component design, and devops in 3 different environments, all achieved through AWS. Development is made with Ruby on Rails, JavaScript, React with Ant Design, Python and Docker',
+  'ditmac.title': 'Ditmac LLC',
+  'ditmac.description': '',
+  'sensai.title': 'Sensai',
+  'sensai.description': 'Study and choose the correct tool for the pending migration, for both front- end and backend. Design the migration strategy and execution, along with the planned release schedule and tool. Developed efficient Ruby on Rails API services, connected to a React built front end, topped with Material UI library',
+  'gdx.title': 'GDX Group',
+  'gdx.description': 'Design and develop new strategies for a Microservice Driven Architecture, built based on Grails, ElasticSearch, JavaScript, RabbitMQ, MySQL, MongoDB & GraphQL. Develop in-house Polymer web components which fit the needs for the project, and the whole company for a new development project.',
+  'world.software.services.title': 'World Software Services',
+  'world.software.services.description': 'Develop strategic and new pages and services for multiple banks applications, based on Java & Spring, with an Oracle SQL database with a Stored-Procedure approach',
+
 }

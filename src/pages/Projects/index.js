@@ -3,7 +3,7 @@ import { Timeline, Row, Col, Divider } from 'antd';
 import moment from 'moment';
 import styles from './index.less';
 import { FormattedMessage } from 'umi/locale';
-import EXPERIENCE from '@/assets/experience.svg';
+import LAUNCH from '@/assets/launch.svg';
 
 const format = 'DD/MMM/YYYY';
 
@@ -55,14 +55,17 @@ export default () => {
         <Divider />
       </Row>
       <Row gutter={64}>
+      <Col span={12}>
+            <img src={LAUNCH} alt="experience.svg" className={styles.image} />
+          </Col>
         <Col span={12}>
-          <Timeline mode="left">
+          <Timeline mode="right">
             {experience.map(it => (
               <Item key={it.title}>
-                <Row className={styles.job}>
+                <Row className={styles.job} justify="end">
                   <FormattedMessage id={it.job} />
                 </Row>
-                <Row className={styles.title}>
+                <Row className={styles.title} justify="end">
                   <FormattedMessage id={it.title} />
                 </Row>
                 <Row className={styles.date} justify="space-between">
@@ -79,9 +82,6 @@ export default () => {
               </Item>
             ))}
           </Timeline>
-        </Col>
-        <Col span={12}>
-          <img src={EXPERIENCE} alt="experience.svg" className={styles.image} />
         </Col>
       </Row>
     </div>

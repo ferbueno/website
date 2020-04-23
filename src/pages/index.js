@@ -4,6 +4,8 @@ import Home from './Home';
 import About from './About';
 import Stack from './Stack';
 import Quote from './Quote';
+import Experience from './Experience';
+import Projects from './Projects';
 
 const pages = [<Home />, <About />, <Stack />];
 
@@ -17,6 +19,8 @@ export default class Landing extends Component {
         <Home />
         <About />
         <Quote />
+        <Experience />
+        <Projects />
         <Stack />
       </Fragment>
     );
